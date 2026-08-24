@@ -6,7 +6,7 @@ import random
 import aiohttp
 import asyncio
 import time
-
+# Pronto
 intents = discord.Intents.default()
 intents.members = True  # Fondamentale per leggere i membri e i ruoli
 bot = commands.Bot(command_prefix="!", intents=intents)
